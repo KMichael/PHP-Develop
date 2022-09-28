@@ -42,13 +42,3 @@ Route::put('authors/{id}', function(Request $request, $id) {
 
     return $author;
 });
-
-
-//Route::get('books', \App\Http\Controllers\Json\BookController::class, 'index');
-//Route::get('books/{book}', \App\Http\Controllers\Json\BookController::class, 'show');
-//Route::put('books/{book}', \App\Http\Controllers\Json\BookController::class, 'update');
-//Route::delete('books/{book}', \App\Http\Controllers\Json\BookController::class, 'delete');
-//
-//Route::get('authors', \App\Http\Controllers\Json\AuthorController::class, 'index');
-//Route::get('authors/{author}', \App\Http\Controllers\Json\AuthorController::class, 'show');
-//Route::put('authors/{author}', \App\Http\Controllers\Json\AuthorController::class, 'update');
